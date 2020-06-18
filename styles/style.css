@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    background-color: #3c4245;
+    font-family: 'Roboto', sans-serif;
+    color: #dfcdc3;
+}
+
+#page-home .content {
+    width: 90%;
+    max-width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 42px;
+}
+
+
+
+#header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #5f6769;
+    border-radius: 8px;
+    margin-bottom: 32px;
+    border: 3px solid #000000;
+}
+
+#header #header-text {
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+
+#header #header-text h2 {
+    flex: 1;
+}
+
+#xpcriativa {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #5f6769;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    border: 3px solid #000000;
+
+}
+
+#xpcriativa img {
+    border-radius: 8px;
+    max-width:500px;
+    max-height:271px;
+    width: auto;
+    height: auto;
+}
+
+#xpcriativa p {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+#raciocinio {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #5f6769;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    border: 3px solid #000000;
+
+}
+
+#raciocinio img {
+    border-radius: 8px;
+    max-width:500px;
+    max-height:300px;
+    width: auto;
+    height: auto;
+}
+
+#raciocinio p {
+    font-weight: bold;
+    font-size: 19px;
+}
